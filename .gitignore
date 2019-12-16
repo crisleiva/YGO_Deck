@@ -1,0 +1,5 @@
+#Ignore images too big of a folder
+backend/ygo/images
+
+#Ignore vscode settings
+.vscode
