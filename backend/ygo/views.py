@@ -1,4 +1,4 @@
-from ygo import app, helpers
+from ygo import app, api_communicator
 from flask import jsonify
 
 @app.route('/', methods=['GET'])
@@ -7,4 +7,4 @@ def index():
 
 @app.route('/api/v1/cards/all', methods=['GET'])
 def all_cards():
-	return helpers.api_call()
+	return api_communicator.api_call()
