@@ -1,5 +1,11 @@
 #Ignore images too big of a folder
 backend/ygo/images
 
+#Ignore pycache
+backend/ygo/pycache
 #Ignore vscode settings
 .vscode
+#FrontEnd files that need to be ignored
+frontend/node_modules
+frontend/.DS_Store
+frontend/dist
