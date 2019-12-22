@@ -7,5 +7,7 @@ backend/ygo/__pycache__
 .vscode
 #FrontEnd files that need to be ignored
 frontend/node_modules
+#dont want to store all these images
+frontend/images
 frontend/.DS_Store
 frontend/dist
