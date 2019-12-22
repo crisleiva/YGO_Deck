@@ -1,4 +1,4 @@
-class YGOAdapter {
+export class YGOAdapter {
 
   public getAllCards = () => {
     const ygoUrl = 'www.localhost:5000/api/v1/cards/all';
@@ -23,5 +23,3 @@ class YGOAdapter {
   }
 
 }
-
-export default YGOAdapter;
